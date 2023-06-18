@@ -1,0 +1,372 @@
+body {
+  background-color: #010621;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif, cursive;
+  color: white;
+}
+
+.container-fluid {
+  padding-top: 60px;
+  padding-bottom: 0px;
+
+}
+
+.cityscape {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image-of-cityscape {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.cityscape-content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.cityscape-content:hover {
+  opacity: 1;
+}
+
+.cityscape-content h1 {
+  font-size: 75px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Custom styles for the fixed navbar */
+.navbar {
+  z-index: 9998;
+  height: 60px;
+}
+
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+}
+
+body {
+  background-color: #010621;
+  height: 100vh;
+  width: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif cursive;
+  color: white;
+}
+
+p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* full-sized  container that fills up the page */
+div {
+  margin-bottom: 40px;
+}
+
+#section-header {
+  margin-bottom: 0px;
+}
+
+
+.header .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end; /* Align the list items to the right */
+  position: sticky;
+  top: 5;
+  z-index: 100;
+  text-align: right;
+}
+
+.header .navbar li {
+  text-align: right;
+}
+
+.header .navbar li a {
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: limegreen;
+}
+
+.header .navbar li a:hover {
+  color: limegreen;
+}
+
+#gabrielle-div h1 {
+  font-size: 5rem;  
+}
+
+
+h1, h2, h3 {
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif cursive;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  background-color: white;
+  padding: 0;
+  height: 10px;
+  width:100%;
+}
+
+#bodyDiv {
+  color: white;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637DD;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+#profileImage {
+  height: 500px;
+  width: auto;
+}
+
+.profile-pic-div {
+  position: relative;
+  z-index: 0;
+}
+
+.wrapper {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  
+
+}
+
+.cityscape {
+  width:100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.image-of-cityscape {
+  width:100%;
+  max-width: 100%;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.cityscape-content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background:rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.cityscape-content:hover {
+  opacity: 1;
+
+}
+
+.cityscape-content h1 {
+  font-size: 75px;
+  color: white;
+  margin-bottom: 0px;
+
+}
+
+.cityscape-content > * {
+  transform:translateY(25px);
+  transition: transform 0.6s;
+  
+}
+
+.cityscape-content:hover > * {
+  transform:translateY(0px);
+  
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0077B5;
+  transition: color 0.3s; 
+  
+}
+
+.icon-button:hover {
+  color: limegreen;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+.linkedin-icon {
+  color: #0077B5;
+  font-size: 2rem;
+  
+}
+
+#skills i {
+    font-size: 4rem; 
+    color: #0077B5; 
+    
+  }
+
+  .footer {
+    background-color: black;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  
+.react-appointment-app-screenshots {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+
+}
+
+.profile-website-screenshots {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  outline: 2px solid #CEC8FF;
+
+}
+
+.git-hub-logo {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+
+}
+
+@keyframes flash {
+  0% {
+    background-color: purple;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+.btn-flashing {
+  animation: flash 1s linear infinite;
+  color: white;
+  align-items: center;
+}
