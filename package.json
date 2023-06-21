@@ -1,0 +1,29 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabbyPassion/Profile.git"
+  },
+  "author": "Gabrielle Beckford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabbyPassion/Profile/issues"
+  },
+  "homepage": "https://github.com/gabbyPassion/Profile#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
