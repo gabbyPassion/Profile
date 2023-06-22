@@ -10,126 +10,156 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <!-- Include Bootstrap CSS -->
     <!-- CSS only -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="style.css" />
     <title>Gabrielle Beckford: Fullstack Software Developer</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <!--Body-->
 <body>
     <!-----------------------Header------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container" id="navbar-container">
+            <a class="navbar-brand" href="#">Gabrielle Beckford</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
-
-    <div class="container-fluid">
-    <div class="row wrapper">
-        <div class="col-12 cityscape">
-        <img src="cityscape-w-success-quote.png" class="image-of-cityscape">
-        <div class="cityscape-content">
-            <h1 id="hello">Hello World!</h1>
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+        <div class="row wrapper">
+            <div class="col cityscape">
+                <img src="cityscape-w-success-quote.png" class="image-of-cityscape">
+                <div class="cityscape-content">
+                    <h1 id="hello">Hello World!</h1>
+                </div>
+            </div>
         </div>
-        </div>
-        </div>
+    </div>
         <!---------Main Body----------->    
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12" id="gabrielle-div">
-                    <h1 id="gabrielle">Gabrielle Beckford</h1>
-                    <h2>Full Stack Software Developer</h2>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="gabrielle-div">
+                <h1 id="gabrielle">Gabrielle Beckford</h1>
+                <h2>Full Stack Software Developer</h2>
             </div>
         </div>
-        <div class="container-fluid about" id="about">
-            <div class="row about-container justify-content-center" id="section-header">
-                <div class="col-12">
-                    <h2>About</h2>
-                </div>
-            </div>
-            <div class="row about-container justify-content-center">
-                <div class="col-md-8">
-                    <!-- About section content goes here -->
-                    <p class="text-justify text-left">I'm Gabrielle Beckford, a veterinarian turned Full Stack Software Developer. With over five years of diverse work experience in veterinary medicine, management, tech recruiting, and higher education, I bring a unique blend of skills to the table.</p>
-                    <p class="text-justify text-left">My journey into programming and development began in 2015 when I started a Wordpress travel blog. Through self-teaching, I learned how to utilize FTP servers, customize my WordPress site, and publish to the web. Initially, maintaining the blog was simply a hobby during college, and I never anticipated transitioning into a full-time career building websites and applications.</p>
-                    <p class="text-justify text-left">I have come to realize the immense opportunities to serve in the Tech Industry. Furthermore, I am inspired by its ability to address numerous societal pain points with significant impact and I am excited to be a part of it. Currently, I am on the verge of completing my Full Stack Web and Mobile Development certificate course. <strong><u>In the upcoming fall, I will commence my pursuit of a Computer Science BSc from a reputable online institution.</u></strong></p>
-                </div>
-                <div class="col-md-4" id="profile-pic-div">
-                    <!-- Image goes here -->
-                    <img src="gabrielle-beckford.jpg" alt="profile photo of Gabrielle Beckford" class="img-fluid" id="profileImage">
-                </div>
+    </div>
+    <div class="container-fluid about" id="about">
+        <div class="row justify-content-center" id="section-header">
+            <div class="col">
+                <h2>About</h2>
             </div>
         </div>
-        <div class="container-fluid" id="skills">
-            <div class="row about-container justify-content-center" id="section-header">
-                <div class="col-12">
-                    <h2>Skills</h2>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- About section content goes here -->
+                <p class="text-justify text-left">I'm Gabrielle Beckford, a veterinarian turned Full Stack Software Developer. With over five years of diverse work experience in veterinary medicine, management, tech recruiting, and higher education, I bring a unique blend of skills to the table.</p>
+                <p class="text-justify text-left">My journey into programming and development began in 2015 when I started a Wordpress travel blog. Through self-teaching, I learned how to utilize FTP servers, customize my WordPress site, and publish to the web. Initially, maintaining the blog was simply a hobby during college, and I never anticipated transitioning into a full-time career building websites and applications.</p>
+                <p class="text-justify text-left">I have come to realize the immense opportunities to serve in the Tech Industry. Furthermore, I am inspired by its ability to address numerous societal pain points with significant impact and I am excited to be a part of it. Currently, I am on the verge of completing my Full Stack Web and Mobile Development certificate course. <strong><u>In the upcoming fall, I will commence my pursuit of a Computer Science BSc from a reputable online institution.</u></strong></p>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-12">                    
-                    <div class="container">
-                        <div class="row justify-content-center">
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-js-square"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-bootstrap"></i>
-                        </div>
-                    </div>
-                    
+            <div class="col-md-4 justify-content-center" id="profile-pic-div">
+                <!-- Image goes here -->
+                <img src="gabrielle-beckford.jpg" alt="profile photo of Gabrielle Beckford" class="img-fluid" id="profileImage">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="skills">
+        <div class="row justify-content-center" id="section-header">
+            <div class="col">
+                <h2>Skills</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">                    
+                <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-github icon"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-git"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-node-js"></i>
-                        </div>
-                        <div class="col-md-3 text-center">
-                        <i class="fab fa-react"></i>
-                        </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-html5"></i>
                     </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-css3-alt"></i>
                     </div>
-                    
-                    <p>Hard Skills: HTML, CSS, JavaScript, Git Bash, GitHub, React, Redux, Bootstrap, UX/UI design, Figma, SEO, SEM, Keyword Research and Boolean Search.</p>
-                    <p>Soft Skills: Solutions Research, Stack Overflow, Working Remotely, Agile Methodology, Communications, Teaching, Mentoring, Onboarding and Project Management.</p>
-                    <p>Still Learning: React Native, NodeJs, Express, SQL and MongoDB.</p>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-bootstrap"></i>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-github icon"></i>
+                    </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-git"></i>
+                    </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="col-md-3 text-center">
+                    <i class="fab fa-react"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <p>Hard Skills: HTML, CSS, JavaScript, Git Bash, GitHub, React, Redux, Bootstrap, UX/UI design, Figma, SEO, SEM, Keyword Research and Boolean Search.</p>
+                <p>Soft Skills: Solutions Research, Stack Overflow, Working Remotely, Agile Methodology, Communications, Teaching, Mentoring, Onboarding and Project Management.</p>
+                <p>Still Learning: React Native, NodeJs, Express, SQL and MongoDB.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="contact">
+        <div class="row about-container justify-content-center" id="section-header">
+            <div class="col">
+                <h2>Contact</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">                    
+                <p>I am passionate about leveraging my expertise to create innovative solutions and contribute to the field of software development. I am currently interested in opportunities for growth and collaboration.</p><br />
+                <div class="text-center">
+                    <a href="tel:8139663428" class="icon-button">
+                        <i class="fas fa-phone"></i>
+                        813-966-3428
+                    </a> &nbsp;                    
+                    <a href="mailto:gabbyeebeckford@gmail.com" class="icon-button">
+                        <i class="fas fa-envelope"></i>
+                        gabbyeebeckford@gmail.com
+                    </a> &nbsp;
+                    <a href="https://www.linkedin.com/" target="_blank" class="icon-button">
+                        <i class="fab fa-linkedin linkedin-icon"></i> 
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="contact">
-            <div class="row about-container justify-content-center" id="section-header">
-                <div class="col-12">
-                    <h2>Contact</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12">                    
-                    <p>I am passionate about leveraging my expertise to create innovative solutions and contribute to the field of software development. I am currently interested in opportunities for growth and collaboration.</p><br />
-                    <div class="text-center">
-                        <a href="tel:8139663428" class="icon-button">
-                            <i class="fas fa-phone"></i>
-                            813-966-3428
-                        </a> &nbsp;                    
-                        <a href="mailto:gabbyeebeckford@gmail.com" class="icon-button">
-                            <i class="fas fa-envelope"></i>
-                            gabbyeebeckford@gmail.com
-                        </a> &nbsp;
-                        <a href="https://www.linkedin.com/" target="_blank" class="icon-button">
-                            <i class="fab fa-linkedin linkedin-icon"></i> 
-                            LinkedIn
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
     </div>
     <footer class="footer text-light">
@@ -144,7 +174,6 @@
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 
 <!-- JavaScript Bundle with Popper -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     
 
 </body>
