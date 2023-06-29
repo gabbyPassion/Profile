@@ -18,9 +18,6 @@
     "url": "https://github.com/gabbyPassion/Profile/issues"
   },
   "homepage": "https://github.com/gabbyPassion/Profile#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
